@@ -1,10 +1,473 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 body{
-  background-color:whitesmoke;
+  background-image:linear-gradient(to right bottom,#ccc1e2,#C3AED6);
+  background-attachment: fixed;
 }
-.app_sidebar {
-  background-color: aqua;
+
+.app_container{
+  padding-top:50px;
 }
-.app_mainbar{
-  background-color: pink;
+.app_row{
+  height:70vh;
 }
+a {
+  text-decoration:none;
+  color:white;
+}
+a:hover{
+  text-decoration:none;
+  color:#f7eeee;
+}
+
+ .app_mainbar{
+  background-color:#b3aeae;
+  
+  border-radius:10px;
+  padding:25px 15px;
+  box-shadow: 0 0 10px black;
+} 
+
+/* sidebar */
+.sidebar {
+  background-color: #b3aeae;
+  height:100%;
+  border-radius:10px;
+  padding:15px 15px;
+  box-shadow: 0 0 10px black;
+  text-align:center;
+  justify-content: center;
+}
+
+
+.sidebar_avatar{
+  height: 200px;
+  width: 140px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+.sidebar_icon{
+width:35px;
+height:35px;
+}
+.sidebar_icon:hover{
+  opacity:2px;
+}
+ 
+.sidebar_name {
+  font-family:Roboto+Condensed ;
+  font-weight: 400;
+  margin:5px 0;
+  font-size: 1.7rem;
+  color:white;
+}
+.sidebar_name > span {
+  color:white;
+  padding: 5px;
+}
+.sidebar_item {
+  margin-bottom:6px;
+  height:60px;
+  padding-top:6px;
+  font-size:1.25rem;
+  border-radius: 20px;
+  font-weight: 400;
+  color:#585f66;
+
+}
+.sidebar_title {
+  background-color:#f1f1f1;
+  border-radius: 10px;
+
+}
+.sidebar_contact{
+  /* background-color: #dbdddf; */
+  padding: 1px 0;
+  margin:10px -15px;
+text-align: center;
+align-items: center;
+
+}
+
+.sidebar_email{
+  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6); 
+  border-radius:30px;
+  color:#fff;
+  margin:15px 25px 0px;
+  cursor:pointer;
+  transition:all 3s linear;
+}
+.sidebar_email:hover{
+
+  transform: scale(1,2);
+
+}
+
+.sidebar_resume:hover{
+  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6); 
+  color:white
+}
+@media(max-width:991px){
+  .app_mainbar{
+    margin: 30px 0;
+  }
+}
+/*navbar*/
+.navbar_items{
+  display:flex;
+}
+.navbar_item{
+margin-right:20px;
+text-decoration:none;
+color:white;
+font-size:1.3rem;
+cursor:pointer;
+}
+.navbar_item:hover{
+  background: -webkit-linear-gradient(#8675a9,#C3AED6);
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+ 
+}
+
+.navbar_active{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color:white;
+  border-bottom: 4px solid #8675a9;
+}
+/*About*/
+.about{
+  padding:20px;
+  margin:-35px;
+}
+.about_intro {
+  font-size: 1.1rem;
+  padding: 20px;
+  margin: 10px 0;
+  color:white;
+}
+
+.about_container {
+  /* background-color: white; */
+  padding: 30px 20px;
+}
+
+.about_heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+}
+
+/* skill-card */
+.skill-card {
+  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6); 
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  height:110px;
+}
+
+.skill-card_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-card_body {
+  margin-left: 15px;
+
+}
+
+.skill_card_content {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6e7e91;
+}
+/* resume */
+
+.resume {
+  padding-top: 20px;
+}
+
+.resume-card__heading,
+.reume-language__heading {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #acccb2;
+}
+
+.resume-card__body {
+  margin-top: 10px;
+}
+
+.resume-card__title {
+  font-weight: 700;
+}
+
+.resume-card__name {
+  font-size: 16px;
+}
+
+.resume-card__details {
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+/* bar */
+.bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+  margin-bottom: 12px;
+
+}
+
+.bar__icon {
+  width: 15px;
+  height: 15px;
+}
+
+.bar__wrapper {
+  background-image: linear-gradient(90deg, #8675a9,#C3AED6);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: #fff;
+  font-size: 0.9rem
+}
+
+
+
+
+/*social icons design*/
+ .wrapper {
+  
+ 
+ 
+  /* justify-content:center;
+  align-items:center;
+   width: auto;
+   widows: 350px; 
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: minmax(100px, auto);
+  padding-top: 40px;
+  background-color: #ccc;
+	padding: 30px; 
+  text-align: center;
+  width:auto;
+  display:flex; */
+
+
+
+
+  
+	
+	margin-left:0 !important;
+  padding:0px;
+  display:inline-block;
+  margin:10px;
+} 
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+  float:left;
+  display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+.wrapper ul li {
+  width: 50px;
+  height: 50px; 
+  line-height: 50px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC; 
+ align-items: center;
+  transition: all 0.5s ease;
+  display: inline-block;
+  position: relative; 
+  cursor: pointer;
+	
+	
+
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.wrapper ul li .fa {
+  color: #D8E2DC;
+  /* margin-top: 20px; */
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.linkedin {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+/* google */
+.wrapper ul li:hover.google {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+/* whatsapp */
+.wrapper ul li:hover.github {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-github {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+
+/* media queries */
+@media screen and (max-width: 640px){
+  .wrapper {
+      width: 150px;
+  }
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+  .wrapper ul li.google{
+      margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .wrapper {
+      width: 150px;
+  }
+  .wrapper ul li{
+      margin:15px;
+  }
+  .wrapper ul li.google{
+      margin-left: 15px;
+  }
+} 
+
+
+
+/* projects */
+.projects {
+  height: 72vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.projectCard__wrapper {
+  margin: 10px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+}
+
+.projectCard__image {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+  border: 1px solid #00F260;
+  transition: transform 0.3s linear;
+}
+
+.projectCard__image:hover {
+  transform: scale(1.05);
+}
+
+.projectCard__icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.projectCard__title {
+  margin-top: 12px;
+  font: size 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__navbar {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.projects__navbar>div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
