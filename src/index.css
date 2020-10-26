@@ -9,7 +9,7 @@ body{
   padding-top:50px;
 }
 .app_row{
-  height:70vh;
+  height:80vh;
 }
 a {
   text-decoration:none;
@@ -19,9 +19,13 @@ a:hover{
   text-decoration:none;
   color:#f7eeee;
 }
+h5{
+  color:white;
+  font-weight: 600;
+}
 
  .app_mainbar{
-  background-color:#b3aeae;
+  background-color:#2b2828;
   
   border-radius:10px;
   padding:25px 15px;
@@ -30,7 +34,7 @@ a:hover{
 
 /* sidebar */
 .sidebar {
-  background-color: #b3aeae;
+  background-color: #2b2828;
   height:100%;
   border-radius:10px;
   padding:15px 15px;
@@ -72,7 +76,7 @@ height:35px;
   font-size:1.25rem;
   border-radius: 20px;
   font-weight: 400;
-  color:#585f66;
+  color:#acccb2;
 
 }
 .sidebar_title {
@@ -82,31 +86,42 @@ height:35px;
 }
 .sidebar_contact{
   /* background-color: #dbdddf; */
-  padding: 1px 0;
+  padding: 1px ;
   margin:10px -15px;
 text-align: center;
 align-items: center;
+color: #acccb2;
+
 
 }
 
 .sidebar_email{
-  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6); 
-  border-radius:30px;
+  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6);
+  border-radius:10px; 
   color:#fff;
-  margin:15px 25px 0px;
-  cursor:pointer;
-  transition:all 3s linear;
-}
+  text-align: center;
+  /* margin:10px 15px 0px; */
+  /* padding-bottom:20px;
+  cursor:pointer;  */
+  
+  font-weight: 800;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+  cursor:pointer; 
+
+
+ 
+} 
 .sidebar_email:hover{
 
-  transform: scale(1,2);
+opacity: 0.6;
 
 }
 
-.sidebar_resume:hover{
+/* .sidebar_resume:hover{
   background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6); 
   color:white
-}
+} */
 @media(max-width:991px){
   .app_mainbar{
     margin: 30px 0;
@@ -146,7 +161,7 @@ cursor:pointer;
   font-size: 1.1rem;
   padding: 20px;
   margin: 10px 0;
-  color:white;
+  color:#acccb2;
 }
 
 .about_container {
@@ -157,7 +172,7 @@ cursor:pointer;
 .about_heading {
   font-size: 25px;
   font-weight: 700;
-  color: white;
+  color: #acccb2;
   margin-left: 10px;
 }
 
@@ -194,7 +209,7 @@ cursor:pointer;
 }
 
 .resume-card__heading,
-.reume-language__heading {
+.resume-language__heading {
   margin-left: 10px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -211,6 +226,7 @@ cursor:pointer;
 
 .resume-card__name {
   font-size: 16px;
+  color:#acccb2;
 }
 
 .resume-card__details {
@@ -315,7 +331,7 @@ to align it properly */
 /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
   to icons for glowing effect and use transition property for smooth transition effect. */
 /*facebook*/
-.wrapper ul li:hover.facebook {
+/* .wrapper ul li:hover.facebook {
   border: 5px solid #3b5998;
   box-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
@@ -325,7 +341,7 @@ to align it properly */
   color: #3b5998;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
-}
+} */
 
 /*twitter*/
 .wrapper ul li:hover.twitter {
@@ -340,7 +356,7 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/* instagram */
+/* linkedin*/
 .wrapper ul li:hover.linkedin {
   border: 5px solid #bc2a8d;
   box-shadow: 0 0 15px #bc2a8d;
@@ -354,7 +370,7 @@ to align it properly */
 }
 
 /* google */
-.wrapper ul li:hover.google {
+/* .wrapper ul li:hover.google {
   border: 5px solid #dd4b39;
   box-shadow: 0 0 15px #dd4b39;
   transition: all 0.5s ease;
@@ -364,9 +380,9 @@ to align it properly */
   color: #dd4b39;
   text-shadow: 0 0 15px #dd4b39;
   transition: all 0.5s ease;
-}
+} */
 
-/* whatsapp */
+/* github */
 .wrapper ul li:hover.github {
   border: 5px solid #4dc247;
   box-shadow: 0 0 15px #4dc247;
@@ -426,7 +442,7 @@ to align it properly */
   width: 100%;
   height: 80%;
   border-radius: 30px;
-  border: 1px solid #00F260;
+  border: 1px solid #c082cf;
   transition: transform 0.3s linear;
 }
 
@@ -446,11 +462,13 @@ to align it properly */
   display: flex;
   align-items: center;
   justify-content: center;
+  color:#acccb2;
 }
 
 .projects__navbar {
   display: flex;
   margin-bottom: 5px;
+  color:#acccb2;
 }
 
 .projects__navbar>div {
