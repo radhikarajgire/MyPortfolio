@@ -3,6 +3,7 @@
 body{
   background-image:linear-gradient(to right bottom,#ccc1e2,#C3AED6);
   background-attachment: fixed;
+  font-family: sans-serif;
 }
 
 .app_container{
@@ -87,10 +88,11 @@ height:35px;
 .sidebar_contact{
   /* background-color: #dbdddf; */
   padding: 1px ;
-  margin:10px -15px;
+  margin:5px -15px;
 text-align: center;
 align-items: center;
 color: #acccb2;
+
 
 
 }
@@ -159,7 +161,7 @@ cursor:pointer;
 }
 .about_intro {
   font-size: 1.1rem;
-  padding: 20px;
+  padding: 20px 28px;
   margin: 10px 0;
   color:#acccb2;
 }
@@ -211,7 +213,7 @@ cursor:pointer;
 .resume-card__heading,
 .resume-language__heading {
   margin-left: 10px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #acccb2;
 }
@@ -422,8 +424,6 @@ to align it properly */
   }
 } 
 
-
-
 /* projects */
 .projects {
   height: 72vh;
@@ -476,9 +476,25 @@ to align it properly */
   font-size: 1rem;
   cursor: pointer;
 }
+.projects__navbar-active{
+  color:#c3aed6;
+}
 
 
 
+@media (max-width: 600px)
+{
+  .app_mainbar{
+    margin-right: 10px;
+    margin-left:10px;
+  }
+  .navbar_active{
+    font-size:1.5rem;
+  }
+  .navbar_item{
+    font-size:1rem;
+  }
+}
 
 
 

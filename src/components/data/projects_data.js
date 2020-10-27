@@ -1,10 +1,8 @@
 import Rthree from '../../assets/projectimages/Rthree.jpg';
 import music from '../../assets/projectimages/music.jpg';
-
-
 import meme from '../../assets/projectimages/meme.jpg'
-
 import group from '../../assets/projectimages/group.JPG'
+
 
 const data_projects = [
     {
@@ -12,13 +10,13 @@ const data_projects = [
         image: Rthree,
         deployed_url: 'https://dry-crag-84112.herokuapp.com/',
         github_url: 'https://github.com/radhikarajgire/FinalProject',
-        category: ['react.js','node.js', 'mongoDB',]
+        category: ['react.js','node.js', 'mongoDB','Contentful']
     },
 
     {
         name: 'EPIC MEME GENERATOR',
         image: meme,
-        deployed_url: 'https://dev-talks.herokuapp.com/',
+        deployed_url: '#',
         github_url: 'https://github.com/Hangrykat/Meme-Generator',
         category: [ 'react.js']
     },
@@ -28,7 +26,7 @@ const data_projects = [
         image: music,
         deployed_url: 'https://jakubjureczko.github.io/contentful-blog/',
         github_url: 'https://github.com/JakubJureczko/contentful-blog',
-        category: ['node', 'socket.io', 'react']
+        category: ['CMS', 'react']
     },
 
     {
@@ -36,7 +34,7 @@ const data_projects = [
         image: group,
         deployed_url: 'https://justinhorn.name/todo/',
         github_url: 'https://github.com/JustinHorn/todo',
-        category: ['django', 'react']
+        category: [ 'react']
     }
 ]
 

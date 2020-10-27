@@ -9,7 +9,7 @@ const skills =[
 
     icon: frontend,
     title:"Frontend",
-    about:"HTML5, CSS3, JavaScript, React ( Hooks, Context), UX/UI Fundamentals"
+    about:"HTML5, CSS3, JavaScript, React (Hooks, Context), UX/UI Fundamentals"
 },
 {
 
@@ -27,7 +27,7 @@ const skills =[
 
     icon: api,
     title:"AWS & DevOps",
-    about:"DevOps Fundamentals (CI/CD, Deployment),AWS S3,AWS Lambda"
+    about:"DevOps Fundamentals (CI/CD, Deployment), AWS S3, AWS Lambda"
 },
 {
 
@@ -67,7 +67,11 @@ const About = () => {
         initial="hidden"
         animate="visible"
         exit="exit">
-          <h6 className ="about_intro">I'am a 31year old Web Developer with a passion for web applications development and managing projects using Scrum,Agile and learn process.Certified Web Developer, trained in the latest Technologies.Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including JavaScript, React.js, Node.js . Highly adaptable. Detail oriented. Having strong knowledge in AWS Cloud Computing. </h6>
+          <h6 className ="about_intro">I'am a 31year old Web Developer with a passion for web applications development and managing projects using Scrum, Agile and learn process.
+          And I am excited to transition my career from Software Engineer to Full Stack Web Developer.
+ I recently earned a certificate in Full Stack Web Development from WBS Coding School, Coding Boot Camp. 
+The new technologies that I learned during the course are JavaScript, HTML, CSS, Node.js, Express.js, SQL, MongoDB, DevOps and React.js
+      </h6>
           <div className="container about_container">
               <h6 className="about_heading">Familiar technologies</h6>
               <div className="row ">

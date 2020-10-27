@@ -7,7 +7,7 @@ const Navbar = () =>{
        let currentURL = window.location.href
        console.log(currentURL);
        if(currentURL.endsWith('/'))
-       setActive('About me');
+       setActive('About');
        else if(currentURL.endsWith('/projects'))
        setActive('Projects')
        else if(currentURL.endsWith('/resume'))
@@ -33,9 +33,9 @@ const Navbar = () =>{
         animate='visible'>
             <div className= "navbar_active">{active}</div>
             <div className="navbar_items">
-                {active !== 'About me' && 
+                {active !== 'About' && 
                 <Link to ="/"> 
-                 <div className="navbar_item" onClick={()=> setActive('About me')}>About Me</div>
+                 <div className="navbar_item" onClick={()=> setActive('About')}>About </div>
                  </Link>
                 }
             {active !== 'Resume' ?  

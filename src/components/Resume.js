@@ -1,73 +1,7 @@
 import React from 'react';
-import react from '../assets/icons/react.svg'
-import python from '../assets/icons/python.svg'
 import Bar from './Bar';
-import reactjs from '../assets/icons/reactjs.svg';
-import javas from '../assets/icons/javas.svg';
-import css from '../assets/icons/css.svg';
-import nodejs from '../assets/icons/nodejs.svg';
 import {motion} from 'framer-motion';
-const languages = [
-    {
-        icon: python,
-        name: 'HTML',
-        level: '90'
-    },
-    {
-        icon: javas,
-        name: 'JavaScript',
-        level: '80'
-    },
-    {
-        icon: reactjs,
-        name: 'React',
-        level: '70'
-    },
-    {
-        icon: css,
-        name: 'CSS',
-        level: '60'
-    },
-    {
-        icon: nodejs,
-        name: 'Node.js',
-        level: '80'
-    },
-    {
-        icon: react,
-        name: 'Bootstrap',
-        level: '80'
-    },
-    {
-        icon: react,
-        name: 'MongoDB',
-        level: '60'
-    }
-]
-
-const tools = [
-    {
-        icon: react,
-        name: 'Figma',
-        level: '85'
-    },
-    {
-        icon: react,
-        name: 'Git & Github',
-        level: '70'
-    },
-    {
-        icon: react,
-        name: 'Console',
-        level: '60'
-    },
-    {
-        icon: react,
-        name: 'Docker',
-        level: '45'
-    },
-
-]
+import { tools , languages } from './data/resume_data';
 
 
 const Resume = () => {
@@ -105,7 +39,7 @@ const Resume = () => {
                            Fullstack Web and App Development
                         </h5>
                         <p className="resume-card__name">
-                          WBS Coding School , Berlin, Germany    (May 2020-0ct 2020) 
+                          WBS Coding School, Berlin, Germany    (May 2020-0ct 2020) 
                         </p>
                         <h5 className="resume-card__title">
                        Bachelor's in Electronics & Communications Engineering
