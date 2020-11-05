@@ -55,19 +55,26 @@ const Resume = () => {
                         Experience
                     </h4>
                     <div className="resume-card__body">
+                    <h5 className="resume-card__title">
+                    Teaching And Instructional Coach
+
+                        </h5>
+                        <p className="resume-card__name">
+                        PDA College of Engineering, India (2016-2019)
+</p>
                        <h5 className="resume-card__title">
                         Program Associate
                         </h5>
                         <p className="resume-card__name">
-                        Milan Infotech Ltd. Bengaluru, India (2013-2015)
+                        Milan Infotech Ltd. Bengaluru, India (2012-2016)
                         </p>
                         <h5 className="resume-card__title">
                         Trainee Software Engineer
                         </h5>
                         <p className="resume-card__name">
-                        J Spiders tech Ltd. Bengaluru, India (2012-2013)
+                        J Spiders tech Ltd. Bengaluru, India (2011-2012)
                         </p>
-                        <p className="resume-card__details"></p>
+                        <p className="resume-card__details">j</p>
                     </div>
                 </div>
             </div>
