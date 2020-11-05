@@ -43,7 +43,8 @@ const [active, setActive] =useState('All')
                 <div  className={active ==="react.js" && 'projects__navbar-active'} onClick={() => handleFilterCategory('react.js')}>React</div>
                 <div  className={active ==="mongoDB" && 'projects__navbar-active'} onClick={() => handleFilterCategory('mongoDB')}>MongoDB</div>
                 <div  className={active ==="node.js" && 'projects__navbar-active'} onClick={() => handleFilterCategory('node.js')}>Node</div>
-                <div  className={active ==="vanilla js" && 'projects__navbar-active'} onClick={() => handleFilterCategory('vanilla js')}>Vanilla JS</div>
+                
+                <div  className={active ==="next.js" && 'projects__navbar-active'} onClick={() => handleFilterCategory('next.js')}>Next.js</div>
             </div>
             <div className="row">
 

@@ -29,7 +29,7 @@ const Sidebar = () =>{
                <div className="sidebar_location">
                <img src={pin} alt="location" className="sidebar_item"/>Munich, Germany</div> 
                <div className="sidebar_item"> radhika.rajgire@gmail.com</div>
-               <div className="sidebar_item">+4915129676048</div>
+               {/* <div className="sidebar_item">+4915129676048</div> */}
                
            </div>
       <div className="sidebar_item sidebar_email" onClick={handleEmailMe}>Email Me</div>

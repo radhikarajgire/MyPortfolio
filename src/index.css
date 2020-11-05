@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-body{
+
+
+
+
+ body{
   background-image:linear-gradient(to right bottom,#ccc1e2,#C3AED6);
   background-attachment: fixed;
   font-family: sans-serif;
-}
+} 
 
 .app_container{
   padding-top:50px;
@@ -26,7 +30,7 @@ h5{
 }
 
  .app_mainbar{
-  background-color:#2b2828;
+  background-color:#121212;
   
   border-radius:10px;
   padding:25px 15px;
@@ -35,7 +39,7 @@ h5{
 
 /* sidebar */
 .sidebar {
-  background-color: #2b2828;
+  background-color: #121212;
   height:100%;
   border-radius:10px;
   padding:15px 15px;
@@ -54,6 +58,7 @@ h5{
 .sidebar_icon{
 width:35px;
 height:35px;
+color:#9569fe;
 }
 .sidebar_icon:hover{
   opacity:2px;
@@ -77,7 +82,8 @@ height:35px;
   font-size:1.25rem;
   border-radius: 20px;
   font-weight: 400;
-  color:#acccb2;
+  /* color:#acccb2; */
+  color:#47ffeb;
 
 }
 .sidebar_title {
@@ -91,16 +97,16 @@ height:35px;
   margin:5px -15px;
 text-align: center;
 align-items: center;
-color: #acccb2;
+color:#47ffeb;;
 
 
 
 }
 
 .sidebar_email{
-  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6);
+  /* background:#7e7e7e; */
   border-radius:10px; 
-  color:#fff;
+  color:#47ffeb;
   text-align: center;
   /* margin:10px 15px 0px; */
   /* padding-bottom:20px;
@@ -163,7 +169,7 @@ cursor:pointer;
   font-size: 1.1rem;
   padding: 20px 28px;
   margin: 10px 0;
-  color:#acccb2;
+  color:#47ffeb;
 }
 
 .about_container {
@@ -174,13 +180,14 @@ cursor:pointer;
 .about_heading {
   font-size: 25px;
   font-weight: 700;
-  color: #acccb2;
+  color: white;
   margin-left: 10px;
 }
 
 /* skill-card */
 .skill-card {
-  background-image:linear-gradient(to right bottom,#efbbcf,#c3aed6); 
+  background:#424242;
+  color:#47ffeb;
   margin: 10px;
   padding: 10px;
   display: flex;
@@ -215,7 +222,7 @@ cursor:pointer;
   margin-left: 10px;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #acccb2;
+  color: white;
 }
 
 .resume-card__body {
@@ -228,7 +235,7 @@ cursor:pointer;
 
 .resume-card__name {
   font-size: 16px;
-  color:#acccb2;
+  color:#47ffeb;
 }
 
 .resume-card__details {
@@ -251,7 +258,7 @@ cursor:pointer;
 }
 
 .bar__wrapper {
-  background-image: linear-gradient(90deg, #8675a9,#C3AED6);
+  background-image:linear-gradient(to right bottom,#424242,#cfcfcf);
   border-radius: 20px;
   padding: 4px 14px;
   color: #fff;
@@ -442,7 +449,7 @@ to align it properly */
   width: 100%;
   height: 80%;
   border-radius: 30px;
-  border: 1px solid #c082cf;
+  border: 2px solid #47ffeb;
   transition: transform 0.3s linear;
 }
 
@@ -462,13 +469,13 @@ to align it properly */
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#acccb2;
+  color:#47ffeb;
 }
 
 .projects__navbar {
   display: flex;
   margin-bottom: 5px;
-  color:#acccb2;
+  color:#47ffeb;
 }
 
 .projects__navbar>div {

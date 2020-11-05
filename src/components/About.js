@@ -67,10 +67,17 @@ const About = () => {
         initial="hidden"
         animate="visible"
         exit="exit">
-          <h6 className ="about_intro">I'am a 31year old Web Developer with a passion for web applications development and managing projects using Scrum, Agile and learn process.
-          And I am excited to transition my career from Software Engineer to Full Stack Web Developer.
- I recently earned a certificate in Full Stack Web Development from WBS Coding School, Coding Boot Camp. 
-The new technologies that I learned during the course are JavaScript, HTML, CSS, Node.js, Express.js, SQL, MongoDB, DevOps and React.js
+          <h6 className ="about_intro">
+          Innovative optimized solution seeker.
+Excited to be at the deployment phase
+of my new career as a web developer. I
+am ambitious, adventurous, assiduous,
+animated, and an alliteration advocate.
+Possess a strong attention to detail,
+well-developed time management skills,
+and ability to complete all projects
+within schedule and in a timely manner.
+
       </h6>
           <div className="container about_container">
               <h6 className="about_heading">Familiar technologies</h6>
